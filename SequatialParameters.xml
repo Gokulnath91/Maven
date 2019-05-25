@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SequatialParameters">
+<parameter name="url" value = "http://leaftaps.com/opentaps"></parameter>
+<parameter name="username" value = "demosalesmanager"></parameter>
+<parameter name="password" value = "crmsfa"></parameter>
+ <test thread-count="5" name="Result">
+    <classes>
+      <class name="week5.day1.homework.CreateLead"/>
+      <class name="week5.day1.homework.EditLead"/>
+      <class name="week5.day1.homework.DeleteLead"/>
+      <class name="week5.day1.homework.DuplicateLead"/>
+      <class name="week5.day1.homework.MergeLead"/> 
+    </classes>
+  </test> <!-- Result -->
+</suite> <!-- SequatialParameters -->

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="190860" started-at="2019-05-17T08:54:19Z" finished-at="2019-05-17T08:57:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="190860" started-at="2019-05-17T08:54:19Z" finished-at="2019-05-17T08:57:30Z">
+      <class name="runner.TC0001LoginRunTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="setUpClass" is-config="true" duration-ms="111" started-at="2019-05-17T08:54:19Z" finished-at="2019-05-17T08:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="8189" started-at="2019-05-17T08:54:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0001 positive Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="5378" started-at="2019-05-17T08:54:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0002 nagative Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="10777" started-at="2019-05-17T08:54:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:54:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0003 positive crate lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="9644" started-at="2019-05-17T08:54:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0003 positive crate lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="9731" started-at="2019-05-17T08:54:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:55:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0004 Negative crate lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="9054" started-at="2019-05-17T08:55:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0004 Negative crate lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="15854" started-at="2019-05-17T08:55:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:55:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0005 positive EditLead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="15439" started-at="2019-05-17T08:55:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:55:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0005 positive EditLead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="16979" started-at="2019-05-17T08:55:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:56:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0006 negative EditLead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="16987" started-at="2019-05-17T08:56:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0006 negative EditLead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="24991" started-at="2019-05-17T08:56:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0007 positive Merge Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Merge lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="15997" started-at="2019-05-17T08:56:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0008 positive Duplicate Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Duplicate lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="15547" started-at="2019-05-17T08:56:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0009 positive Delete Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="runScenario" duration-ms="16071" started-at="2019-05-17T08:57:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-17T08:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0009 positive Delete Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete lead in Leaftaps application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TC0001LoginRunTest@25bbe1b6]" name="tearDownClass" is-config="true" duration-ms="34" started-at="2019-05-17T08:57:30Z" finished-at="2019-05-17T08:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TC0001LoginRunTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

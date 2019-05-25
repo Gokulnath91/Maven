@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testngWorkings.DeleteLead">
+        <methods>
+          <include name="sedData"/>
+          <include name="close"/>
+          <include name="runDelete"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- testngWorkings.DeleteLead -->
+      <class name="testngWorkings.EditLead">
+        <methods>
+          <include name="close"/>
+          <include name="Login"/>
+          <include name="runEdit"/>
+          <include name="sedData"/>
+        </methods>
+      </class> <!-- testngWorkings.EditLead -->
+      <class name="testngWorkings.CreateLead">
+        <methods>
+          <include name="close"/>
+          <include name="Login"/>
+          <include name="runCreateLead"/>
+          <include name="sedData"/>
+        </methods>
+      </class> <!-- testngWorkings.CreateLead -->
+      <class name="testngWorkings.DuplicateLead">
+        <methods>
+          <include name="close"/>
+          <include name="runDuplicate"/>
+          <include name="Login"/>
+          <include name="sedData"/>
+        </methods>
+      </class> <!-- testngWorkings.DuplicateLead -->
+      <class name="testngWorkings.MergeLead">
+        <methods>
+          <include name="close"/>
+          <include name="runMerge"/>
+          <include name="Login"/>
+          <include name="sedData"/>
+        </methods>
+      </class> <!-- testngWorkings.MergeLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sequantial]">
+  <test thread-count="5" name="Sequantial(failed)">
+    <classes>
+      <class name="week5.day1.DuplicateLead">
+        <methods>
+          <include name="close"/>
+          <include name="runDuplicate"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- week5.day1.DuplicateLead -->
+      <class name="week5.day1.EditLead">
+        <methods>
+          <include name="close"/>
+          <include name="runEdit"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- week5.day1.EditLead -->
+      <class name="week5.day1.CreateLead">
+        <methods>
+          <include name="runCreateLead"/>
+          <include name="close"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- week5.day1.CreateLead -->
+      <class name="week5.day1.DeleteLead">
+        <methods>
+          <include name="runDelete"/>
+          <include name="close"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- week5.day1.DeleteLead -->
+      <class name="week5.day1.MergeLead">
+        <methods>
+          <include name="runMerge"/>
+          <include name="close"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- week5.day1.MergeLead -->
+    </classes>
+  </test> <!-- Sequantial(failed) -->
+</suite> <!-- Failed suite [Sequantial] -->
